@@ -1,65 +1,58 @@
-<div align="center">
 
-![Continue logo](media/readme.png)
+# Damsel: Your AI-Powered Code Mentor
 
-</div>
+**Damsel** is an open-source AI tool designed to help developers write better code by mimicking the guidance of a senior engineer. This project is a **fork of [Continue.dev](https://www.continue.dev/)**, with a shift in focus to **learning** and **improvement** rather than just code assistance.
 
-<h1 align="center">Continue</h1>
+Instead of offering generic code completion, Damsel helps you:
+- Master **Low-Level Design** (LLD) for interviews.
+- Write clean, maintainable code based on principles from *Clean Code* and other coding standards.
+- Improve your coding skills through **mentor-like feedback**.
 
-<div align="center">
+## Key Features:
+- **Code Review Assistant**: Receive feedback to improve code readability, efficiency, and maintainability, following best practices.
+- **Low-Level Design (LLD) Guidance**: Interactive exercises and mock interviews to practice real-world design tasks.
+- **Clean Code Principles**: Receive suggestions to refactor code based on well-known software development principles.
+- **Mentorship Mode**: Learn *why* specific coding practices are important with detailed, actionable explanations.
+- **Mock Interview Mode**: Practice LLD coding tasks with feedback as if in an actual interview.
 
-**[Continue](https://docs.continue.dev) is the leading open-source AI code assistant. You can connect any models and any context to build custom autocomplete and chat experiences inside [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)**
+## Installation
 
-</div>
+### Prerequisites:
+- Python 3.x
+- Pip
 
-<div align="center">
+### Steps to Install:
 
-<a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
-</a>
-<a target="_blank" href="https://docs.continue.dev" style="background:none">
-    <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
-</a>
-<a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
-    <img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
-</a>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/evangelosmeklis/damsel.git
+   cd damsel
+   ```
 
-<p></p>
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Chat
-
-[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave the IDE
-
-![chat](docs/static/img/chat.gif)
-
-## Autocomplete
-
-[Autocomplete](https://continue.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
-
-![autocomplete](docs/static/img/autocomplete.gif)
-
-## Edit
-
-[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current file
-
-![edit](docs/static/img/edit.gif)
-
-## Actions
-
-[Actions](https://continue.dev/docs/actions/how-to-use-it) are shortcuts for common use cases.
-
-![actions](docs/static/img/actions.gif)
-
-</div>
-
-## Getting Started
-
-Learn about how to install and use Continue in the docs [here](https://continue.dev/docs/getting-started/install)
+3. Run the application:
+   ```bash
+   python damsel.py
+   ```
 
 ## Contributing
 
-Check out the [contribution ideas board](https://github.com/orgs/continuedev/projects/2), read the [contributing guide](https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md), and join [#contribute on Discord](https://discord.gg/vapESyrFmJ)
+Feel free to fork, modify, and contribute to this project. Please make sure to follow the **Apache 2.0 License** for any contributions.
+
+1. Fork the repository.
+2. Create a new branch for your changes (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a pull request.
 
 ## License
 
-[Apache 2.0 © 2023-2024 Continue Dev, Inc.](./LICENSE)
+This project is licensed under the **Apache 2.0 License** - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Damsel is a fork of the [Continue.dev](https://www.continue.dev/) project. We thank the original developers for creating such a valuable tool. This fork aims to provide additional features focused on learning, code mentorship, and interview preparation.
